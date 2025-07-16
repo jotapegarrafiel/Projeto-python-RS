@@ -1,5 +1,4 @@
 #%%
-
 def check_status(tarefas):
     for i, tarefa in enumerate(tarefas, start=1):
         status = "✅" if tarefa["completada"] else "⏳"
